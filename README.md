@@ -12,3 +12,10 @@
         comparison operators
         logical operators
         ternary operator
+
+- Day 3:
+        if-else statements
+        nested if-else statements
+        switch case
+        conditional (ternary) operators
+        combining conditions
