@@ -19,3 +19,10 @@
         switch case
         conditional (ternary) operators
         combining conditions
+
+- Day 4:
+        for loops to iterate over a sequence of numbers.
+        while loops for iteration based on a condition.
+        do...while loops to ensure the loop body is executed at least once.
+        Implement nested loops to solve more complex problems.
+        Use loop control statements (break and continue ) to control the flow of loops.
