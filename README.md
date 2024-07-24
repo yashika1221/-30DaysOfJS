@@ -27,8 +27,14 @@
         Implement nested loops to solve more complex problems.
         Use loop control statements (break and continue ) to control the flow of loops.
 
-- day 5:
+- Day 5:
         function declarations
         function expressions
         arrow functions
         function parameters and default values
+
+- Day 6:
+        creation and manipulation of arrays using various methods.
+        transformation and aggregation of array data using map, filter, and reduce
+        iteration over arrays using loops and iteration methods.
+        working of multi-dimensional arrays.
