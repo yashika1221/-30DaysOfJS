@@ -1,0 +1,38 @@
+// Q1
+
+// Probelm 2629
+
+var compose = function(functions) {
+    
+    if (functions.length === 0) {
+     return function(x) { return x; };
+    } 
+    else {
+        return function(x) {
+        var result = functions[functions.length - 1](x);
+        for (var i = functions.length - 2; i >= 0; i--) {
+            result = functions[i](result);
+        }
+      return result;
+    };
+  }
+};
+
+// Q2
+
+// Problem 2666
+
+var once = function(fn) {
+    let hasBeenCalled = false;
+    let result;
+
+    return function(...args) {
+        if (!hasBeenCalled) {
+            result = fn(...args);
+            hasBeenCalled = true;
+            return result;
+        } else {
+            return undefined;
+        }
+    };
+};

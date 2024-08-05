@@ -1,0 +1,21 @@
+// Q1
+
+// Problem 2621
+
+async function sleep(millis) {
+    return new Promise (resolve=> setTimeout(resolve,millis))
+}
+
+// Q2
+
+// Problem 2637
+
+var timeLimit = function(fn, t) {
+    
+	return async function(...args) {
+        return new Promise((resolve,reject) => {
+            setTimeout(() => reject("Time Limit Exceeded"),t);
+            fn(...args).then(resolve).catch(reject)
+        })
+    }
+};
